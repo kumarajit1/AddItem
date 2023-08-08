@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+@font-face {
+    font-family: 'metropolis';
+    src: url('../addItem/metropolis.regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#ok {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+}
+
+.str {
+    width: 93.99552917480504px;
+    border: 0.9px solid #C8C8C8;
+
+}
+
+.con {
+    width: 126px;
+    height: 18px;
+    margin: 0 13.56px 0 13.56px;
+    font-family: metropolis;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #007F61;
+}
+
+#rect-2,
+#rect-4 {
+    width: 340.7337951660156px;
+    /* height: 161.11185455322266px; */
+    height: 74.11185455322266px;
+    margin-top: 18.15px;
+    border-radius: 3.6152124404907227px;
+    border: 0.9px solid #C8C8C8;
+    margin-top: 18.15px;
+    font-family: metropolis;
+}
+
+#rect-3 {
+    width: 340.7337951660156px;
+    height: 161.11185455322266px;
+    margin-top: 18.15px;
+    border-radius: 3.6152124404907227px;
+    border: 0.9px solid #C8C8C8;
+    margin-top: 18.15px;
+    font-family: metropolis;
+}
+
+.radio {
+    width: 14.46084976196289px;
+    height: 14.46084976196289px;
+    margin: 29.83px 0 0 21.69px;
+    border: 0.9038031101226807px;
+    border: 0.9px solid #DADADA;
+}
+
+.product_name {
+    margin: 16.37px 0 0 18.77px;
+    color: #000;
+    font-family: Metropolis;
+    font-size: 14.461px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.product_offer {
+    margin: 29.83px 0 0 117.74px;
+    color: #000;
+    font-family: Metropolis;
+    font-size: 14.461px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+table {
+    margin: 25.31px 0 0 34.77px;
+}
+
+.tbl_td {
+    color: #000;
+    font-family: Inter;
+    font-size: 9.942px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+td {
+    padding: 2.3px;
+}
+
+select {
+    width: 65.978px;
+    height: 25.306px;
+    border-radius: 1.808px;
+    border: 0.904px solid #D9D9D9;
+    background: #FFF;
+    font-size: 10.86px;
+}
+
+#Shipping {
+    color: #007F61;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    float: left;
+}
+
+#Total {
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    float: right;
+}
+
+.Pay_detail {
+    margin-top: 24.69px;
+    width: 340.734px;
+    height: 17px;
+}
+.Pay_button{
+    width: 341px;
+height: 48px;
+border-radius: 4px 4px 4px 0px;
+background: #007F61;
+margin-top: 21.8px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+button{
+    color: #FFF;
+    background: none;
+    border: none;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+span{
+    float: right;
+}
+#Copyright{
+        margin-top: 12.69px;
+        width: 340.734px;
+        height: 17px;
+    color: #000;
+font-family: Inter;
+font-size: 12px;
+font-style: italic;
+font-weight: 300;
+line-height: normal;
+
+}
